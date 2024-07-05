@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB0098552C37B8D10063DFD1 /* FinanceAdvisorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0098542C37B8D10063DFD1 /* FinanceAdvisorApp.swift */; };
+		CB0098592C37B8D20063DFD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0098582C37B8D20063DFD1 /* Assets.xcassets */; };
+		CB00985C2C37B8D20063DFD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB00985B2C37B8D20063DFD1 /* Preview Assets.xcassets */; };
+		CB0098642C37B9380063DFD1 /* WelcomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0098632C37B9380063DFD1 /* WelcomePageView.swift */; };
+		CB0098662C37B9490063DFD1 /* WelcomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0098652C37B9490063DFD1 /* WelcomePageViewModel.swift */; };
+		CB0098692C37B97F0063DFD1 /* RegistrationPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0098682C37B97F0063DFD1 /* RegistrationPageView.swift */; };
+		CB00986B2C37B98C0063DFD1 /* RegistrationPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB00986A2C37B98C0063DFD1 /* RegistrationPageViewModel.swift */; };
+		CB00986E2C37B9A70063DFD1 /* LogInPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB00986D2C37B9A70063DFD1 /* LogInPageView.swift */; };
+		CB0098702C37B9BA0063DFD1 /* LogInPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB00986F2C37B9BA0063DFD1 /* LogInPageViewModel.swift */; };
+		CB0098732C37BA1C0063DFD1 /* ExpensesPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0098722C37BA1C0063DFD1 /* ExpensesPageView.swift */; };
+		CB0098752C37BA300063DFD1 /* ExpensesPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0098742C37BA300063DFD1 /* ExpensesPageViewModel.swift */; };
+		CB00987D2C37BF330063DFD1 /* FiraGO-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB00987C2C37BF330063DFD1 /* FiraGO-Regular.ttf */; };
+		CB0098832C37EC1C0063DFD1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0098822C37EC1C0063DFD1 /* Model.swift */; };
+		CB0098862C385BF60063DFD1 /* SimpleNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = CB0098852C385BF60063DFD1 /* SimpleNetworking */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB0098512C37B8D10063DFD1 /* FinanceAdvisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceAdvisor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0098542C37B8D10063DFD1 /* FinanceAdvisorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceAdvisorApp.swift; sourceTree = "<group>"; };
+		CB0098582C37B8D20063DFD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB00985B2C37B8D20063DFD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB0098632C37B9380063DFD1 /* WelcomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageView.swift; sourceTree = "<group>"; };
+		CB0098652C37B9490063DFD1 /* WelcomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageViewModel.swift; sourceTree = "<group>"; };
+		CB0098682C37B97F0063DFD1 /* RegistrationPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPageView.swift; sourceTree = "<group>"; };
+		CB00986A2C37B98C0063DFD1 /* RegistrationPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPageViewModel.swift; sourceTree = "<group>"; };
+		CB00986D2C37B9A70063DFD1 /* LogInPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPageView.swift; sourceTree = "<group>"; };
+		CB00986F2C37B9BA0063DFD1 /* LogInPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPageViewModel.swift; sourceTree = "<group>"; };
+		CB0098722C37BA1C0063DFD1 /* ExpensesPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesPageView.swift; sourceTree = "<group>"; };
+		CB0098742C37BA300063DFD1 /* ExpensesPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesPageViewModel.swift; sourceTree = "<group>"; };
+		CB00987C2C37BF330063DFD1 /* FiraGO-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-Regular.ttf"; sourceTree = "<group>"; };
+		CB00987E2C37C05E0063DFD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CB0098822C37EC1C0063DFD1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB00984E2C37B8D10063DFD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0098862C385BF60063DFD1 /* SimpleNetworking in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB0098482C37B8D10063DFD1 = {
+			isa = PBXGroup;
+			children = (
+				CB0098532C37B8D10063DFD1 /* FinanceAdvisor */,
+				CB0098522C37B8D10063DFD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB0098522C37B8D10063DFD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB0098512C37B8D10063DFD1 /* FinanceAdvisor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB0098532C37B8D10063DFD1 /* FinanceAdvisor */ = {
+			isa = PBXGroup;
+			children = (
+				CB00987E2C37C05E0063DFD1 /* Info.plist */,
+				CB00987B2C37BF100063DFD1 /* Fonts */,
+				CB0098712C37B9CB0063DFD1 /* ExpensesPage */,
+				CB00986C2C37B9960063DFD1 /* LogInPage */,
+				CB0098672C37B9640063DFD1 /* RegistrationPage */,
+				CB0098622C37B9220063DFD1 /* WelcomePage */,
+				CB0098542C37B8D10063DFD1 /* FinanceAdvisorApp.swift */,
+				CB0098582C37B8D20063DFD1 /* Assets.xcassets */,
+				CB0098822C37EC1C0063DFD1 /* Model.swift */,
+				CB00985A2C37B8D20063DFD1 /* Preview Content */,
+			);
+			path = FinanceAdvisor;
+			sourceTree = "<group>";
+		};
+		CB00985A2C37B8D20063DFD1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB00985B2C37B8D20063DFD1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB0098622C37B9220063DFD1 /* WelcomePage */ = {
+			isa = PBXGroup;
+			children = (
+				CB0098632C37B9380063DFD1 /* WelcomePageView.swift */,
+				CB0098652C37B9490063DFD1 /* WelcomePageViewModel.swift */,
+			);
+			path = WelcomePage;
+			sourceTree = "<group>";
+		};
+		CB0098672C37B9640063DFD1 /* RegistrationPage */ = {
+			isa = PBXGroup;
+			children = (
+				CB0098682C37B97F0063DFD1 /* RegistrationPageView.swift */,
+				CB00986A2C37B98C0063DFD1 /* RegistrationPageViewModel.swift */,
+			);
+			path = RegistrationPage;
+			sourceTree = "<group>";
+		};
+		CB00986C2C37B9960063DFD1 /* LogInPage */ = {
+			isa = PBXGroup;
+			children = (
+				CB00986D2C37B9A70063DFD1 /* LogInPageView.swift */,
+				CB00986F2C37B9BA0063DFD1 /* LogInPageViewModel.swift */,
+			);
+			path = LogInPage;
+			sourceTree = "<group>";
+		};
+		CB0098712C37B9CB0063DFD1 /* ExpensesPage */ = {
+			isa = PBXGroup;
+			children = (
+				CB0098722C37BA1C0063DFD1 /* ExpensesPageView.swift */,
+				CB0098742C37BA300063DFD1 /* ExpensesPageViewModel.swift */,
+			);
+			path = ExpensesPage;
+			sourceTree = "<group>";
+		};
+		CB00987B2C37BF100063DFD1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CB00987C2C37BF330063DFD1 /* FiraGO-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB0098502C37B8D10063DFD1 /* FinanceAdvisor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB00985F2C37B8D20063DFD1 /* Build configuration list for PBXNativeTarget "FinanceAdvisor" */;
+			buildPhases = (
+				CB00984D2C37B8D10063DFD1 /* Sources */,
+				CB00984E2C37B8D10063DFD1 /* Frameworks */,
+				CB00984F2C37B8D10063DFD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinanceAdvisor;
+			packageProductDependencies = (
+				CB0098852C385BF60063DFD1 /* SimpleNetworking */,
+			);
+			productName = FinanceAdvisor;
+			productReference = CB0098512C37B8D10063DFD1 /* FinanceAdvisor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB0098492C37B8D10063DFD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CB0098502C37B8D10063DFD1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = CB00984C2C37B8D10063DFD1 /* Build configuration list for PBXProject "FinanceAdvisor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB0098482C37B8D10063DFD1;
+			packageReferences = (
+				CB0098842C385BF60063DFD1 /* XCRemoteSwiftPackageReference "SimpleNetworking" */,
+			);
+			productRefGroup = CB0098522C37B8D10063DFD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB0098502C37B8D10063DFD1 /* FinanceAdvisor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB00984F2C37B8D10063DFD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB00985C2C37B8D20063DFD1 /* Preview Assets.xcassets in Resources */,
+				CB0098592C37B8D20063DFD1 /* Assets.xcassets in Resources */,
+				CB00987D2C37BF330063DFD1 /* FiraGO-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB00984D2C37B8D10063DFD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0098552C37B8D10063DFD1 /* FinanceAdvisorApp.swift in Sources */,
+				CB00986B2C37B98C0063DFD1 /* RegistrationPageViewModel.swift in Sources */,
+				CB00986E2C37B9A70063DFD1 /* LogInPageView.swift in Sources */,
+				CB0098752C37BA300063DFD1 /* ExpensesPageViewModel.swift in Sources */,
+				CB0098832C37EC1C0063DFD1 /* Model.swift in Sources */,
+				CB0098662C37B9490063DFD1 /* WelcomePageViewModel.swift in Sources */,
+				CB0098702C37B9BA0063DFD1 /* LogInPageViewModel.swift in Sources */,
+				CB0098642C37B9380063DFD1 /* WelcomePageView.swift in Sources */,
+				CB0098692C37B97F0063DFD1 /* RegistrationPageView.swift in Sources */,
+				CB0098732C37BA1C0063DFD1 /* ExpensesPageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB00985D2C37B8D20063DFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB00985E2C37B8D20063DFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB0098602C37B8D20063DFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FinanceAdvisor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinanceAdvisor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tbc.FinanceAdvisor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB0098612C37B8D20063DFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FinanceAdvisor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinanceAdvisor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tbc.FinanceAdvisor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB00984C2C37B8D10063DFD1 /* Build configuration list for PBXProject "FinanceAdvisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB00985D2C37B8D20063DFD1 /* Debug */,
+				CB00985E2C37B8D20063DFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB00985F2C37B8D20063DFD1 /* Build configuration list for PBXNativeTarget "FinanceAdvisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0098602C37B8D20063DFD1 /* Debug */,
+				CB0098612C37B8D20063DFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CB0098842C385BF60063DFD1 /* XCRemoteSwiftPackageReference "SimpleNetworking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GujMeister/SimpleNetworking";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CB0098852C385BF60063DFD1 /* SimpleNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB0098842C385BF60063DFD1 /* XCRemoteSwiftPackageReference "SimpleNetworking" */;
+			productName = SimpleNetworking;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CB0098492C37B8D10063DFD1 /* Project object */;
+}
